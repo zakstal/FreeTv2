@@ -1,10 +1,8 @@
 $:.unshift File.dirname(__FILE__)
-require 'required'
 require 'web_interface_helpers'
 require 'text'
 require 'show'
 require 'formatter'
-require 'objects'
 require 'displayer'
 require 'controller'
 
@@ -52,17 +50,17 @@ def choice_control(show)
 			a_show = show.show_episodes_from(season) if season != ""
 		when "n"
 			index = 10
-		else	
+		else
 				case level
 				# Main screen choices router
 				when 0
 					case choice
-				
+
 					when "1"
 						break
 					when "2"
 						level = 1
-					when "3" 
+					when "3"
 						puts show.plot
 						gets
 
@@ -84,11 +82,11 @@ def choice_control(show)
 						ep = show.show_episodes_from(current_show.season)[next_ep.to_i]
 						current_show.episode = ep
 					when "re"
-						current_show.episode 
+						current_show.episode
 					end
-					
+
 				end
 
-		end	
+		end
 	end
 end

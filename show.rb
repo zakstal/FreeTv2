@@ -1,6 +1,5 @@
 # $LOAD_PATH << File.dirname('./ifram2')
 $:.unshift File.dirname(__FILE__)
-require 'required'
 require 'web_interface_helpers'
 require 'text'
 require 'pp'

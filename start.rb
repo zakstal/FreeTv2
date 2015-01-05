@@ -1,10 +1,9 @@
 $:.unshift File.dirname(__FILE__)
-require 'required'
 require 'web_interface_helpers'
 require 'text'
 require 'show'
 require 'formatter'
-require 'objects'
+# require 'objects'
 require 'displayer'
 require 'controller'
 
