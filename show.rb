@@ -52,7 +52,6 @@ class ShowName
 			def get_iframe(page)
 				dom = noko_parse(page)
 				iframe_link = dom_css(dom,0)#.nil? ? dom_css(dom,1) : dom_css(dom,0)) #for some reasone the iframe location changes from time to time
-        puts "this is the iframe link: #{iframe_link}"
 				iframe_link
 			end
 

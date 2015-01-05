@@ -34,4 +34,8 @@ module Views
 	def playme
 		", p - play next episode"
 	end
+
+	def reloadd
+		", re - reload with another player"
+	end
 end

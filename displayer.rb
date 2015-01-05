@@ -47,7 +47,7 @@ case levels
 						info = a_show.seasons[sea].episodes[ep].links.key(link_info)
 					end
 
-					screen([name,sea,ep],["s",info],[options + playme])
+					screen([name,sea,ep],["s",info],[options + playme + reloadd])
 
 			end
 
