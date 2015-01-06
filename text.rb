@@ -38,4 +38,10 @@ module Views
 	def reloadd
 		", re - reload with another player"
 	end
+
+	def sorry
+		spacer(14)
+		puts "\tSorry your show was not found \n\n\n\n\tPress Enter to search again"
+		spacer(10)
+	end
 end

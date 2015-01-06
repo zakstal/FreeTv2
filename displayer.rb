@@ -18,6 +18,7 @@ case levels
 				# a_shows the main screen
 				when 0
 						name = a_show.show[:show_name]
+						puts name
 						screen(["welcome!",name],[1,main_screen],[])
 
 				# season choice screen

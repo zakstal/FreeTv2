@@ -19,7 +19,12 @@ def do_it
 		get_show(choice)
 		a_show = ShowName.new(choice)
 		# a_show.populate
-		choice_control(a_show)
+		if a_show.plot == ""
+			sorry
+			gets
+		else
+			choice_control(a_show)
+		end
 	do_it
 end
 

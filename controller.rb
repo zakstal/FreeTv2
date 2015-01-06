@@ -63,7 +63,6 @@ def choice_control(show)
 					when "3"
 						puts show.plot
 						gets
-
 					end
 				# season choice rounter
 				when 1
