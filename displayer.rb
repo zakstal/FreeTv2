@@ -13,7 +13,7 @@ include	Views
 
 def display_controler(current_show, a_show, levels, index)
 	i = index
-
+	puts "\e[H\e[2J"
 case levels
 				# a_shows the main screen
 				when 0

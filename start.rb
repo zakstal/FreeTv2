@@ -14,6 +14,7 @@ include	Views
 
 
 def do_it
+		puts "\e[H\e[2J"
 		ask_what_show
 		choice = gets.chomp
 		get_show(choice)
